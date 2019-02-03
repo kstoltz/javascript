@@ -28,7 +28,6 @@ game.addEventListener('mousedown', (e) => {
 // Listen for guesses
 guessBtn.addEventListener('click', () => {
   let guess = parseInt(guessInput.value);
-  //console.log(guess);
 
   // Validate the user's guess
   if(isNaN(guess) || guess < min || guess > max) {
